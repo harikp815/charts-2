@@ -29,9 +29,9 @@ elasticsearch:
   bootstrapChecks: true
 
 service:
-  type: ClusterIP
-  externalPort: 9000
-  internalPort: 9000
+  type: NodePort
+  externalPort: 31789
+  internalPort: 31789
   labels:
   annotations: {}
   # May be used in example for internal load balancing in GCP:
